@@ -1,4 +1,4 @@
-Skrypt częściowo automatyzujący ćwiczenie 2 z MOwNiT.
+Skrypt ~~częściowo~~ automatyzujący ćwiczenie 2 z MOwNiT.
 
 Wymagane posiadanie expect:
 
@@ -13,3 +13,8 @@ Uruchomienie poprzez:
 `
 
 Do adaptacji typu hp (zadanie 3) niezbędne jest wprowadzenie parametrów w pliku start.sh.
+
+Do uruchomiania programu dostarczonego na zajęciach potrzebna biblioteka:
+
+`sudo apt-get install libgfortran3
+`
