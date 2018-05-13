@@ -33,14 +33,14 @@ cat zad3.out | grep 'H1'   | cut -c 29-38 > temp/z3h1log10
 cat zad3.out | grep 'NDOF' | cut -c 13-18 > temp/z3ndof
 cat zad3.out | grep 'NDOF' | cut -c 29-38 > temp/z3ndoflog10
 paste temp/z3ndoflog10 temp/z3h1log10 > temp/z3alllog10
-sed -n 1,6p   temp/z3alllog10 > temp/z3p1log10
-sed -n 7,12p  temp/z3alllog10 > temp/z3p2log10
-sed -n 13,18p temp/z3alllog10 > temp/z3p3log10
+cat  temp/z3alllog10 > temp/z3p1log10
+#sed -n 7,12p  temp/z3alllog10 > temp/z3p2log10
+#sed -n 13,18p temp/z3alllog10 > temp/z3p3log10
 
 paste temp/z3ndof temp/z3h1 > temp/z3all
-sed -n 1,6p   temp/z3all > temp/z3p1
-sed -n 7,12p  temp/z3all > temp/z3p2
-sed -n 13,18p temp/z3all > temp/z3p3
+cat   temp/z3all > temp/z3p1
+#sed -n 7,12p  temp/z3all > temp/z3p2
+#sed -n 13,18p temp/z3all > temp/z3p3
 
 cat zad3hp.out > temp/z3hp
 

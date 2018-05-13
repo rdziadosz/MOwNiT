@@ -5,8 +5,8 @@
 # whatever you want with this stuff. If we meet some day, and you think this
 # stuff is worth it, you can buy me a beer in return.
 #----------------------------------------------------------------------------
-# Zadanie A=0, B=2 oraz parametry z kartki
-readonly ZADANIE="0"
+# Zadanie A=1, B=2 oraz parametry z kartki
+readonly ZADANIE="1"
 readonly PARAM1="33"
 readonly PARAM2="0.51"
 readonly PARAM3="1337"
