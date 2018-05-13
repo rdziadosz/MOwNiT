@@ -11,3 +11,5 @@ Uruchomienie poprzez:
 
 `sh start.sh
 `
+
+Do adaptacji typu hp (zadanie 3) niezbędne jest wprowadzenie parametrów w pliku start.sh.

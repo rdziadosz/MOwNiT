@@ -14,3 +14,11 @@ for p in $(seq 1 3); do
 		cat temp/z${z}p${p}>>tabelki.txt
 	done
 done
+
+echo "\n---------------------------------------" >> tabelki.txt
+echo " hp-adaptacyjna" >> tabelki.txt
+echo "---------------------------------------" >> tabelki.txt
+awk '{print $2}' temp/z3hp > temp/z3hpcolumn2
+awk '{print $3}' temp/z3hp > temp/z3hpcolumn3
+echo ${HEADER} >> tabelki.txt
+paste temp/z3hpcolumn2 temp/z3hpcolumn3 >> tabelki.txt

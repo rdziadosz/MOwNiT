@@ -42,6 +42,8 @@ sed -n 1,6p   temp/z3all > temp/z3p1
 sed -n 7,12p  temp/z3all > temp/z3p2
 sed -n 13,18p temp/z3all > temp/z3p3
 
+cat zad3hp.out > temp/z3hp
+
 gnuplot charts/p1.gnu
 gnuplot charts/p2.gnu
 gnuplot charts/p3.gnu
