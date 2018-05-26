@@ -9,7 +9,6 @@
 readonly ZADANIE="1"
 readonly PARAM1="33"
 readonly PARAM2="0.51"
-readonly PARAM3="1337"
 #----------------------------------------------------------------------------
 
 echo "ZADANIE 1"
