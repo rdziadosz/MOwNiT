@@ -2,7 +2,7 @@ set terminal pngcairo  transparent enhanced font "arial,13" fontscale 1.0 size 8
 set output 'p2.png'
 set key bmargin left horizontal Right noreverse enhanced autotitle
 set samples 800, 800
-set title "Wkres zbieżności p=2" 
+set title "Wykres zbieżności p=2"
 set title  font ",20" norotate
 set ylabel "log(h1)"
 set xlabel "log(ndof)"
